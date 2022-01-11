@@ -22,6 +22,7 @@
         </header>
         <main>
           <!--Introduccion-->
+          <?php require_once introduccion.php?>
           <div class="row mt-3 intro">
             <div class="col-md-6">
               <h2>
