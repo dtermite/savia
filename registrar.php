@@ -22,6 +22,4 @@
 
           </form>
           <!--Aca empieza la programacion-->      
-          <?php
-            include("respuestas.php");
-          ?>
+          <?php require_once 'respuestas.php';?>
