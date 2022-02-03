@@ -1,27 +1,23 @@
 
           <!--Encabezados-->
-          <?php require_once 'encabezado.php';?>
+            <?php require_once 'encabezado.php';?>
 
           <!--Introduccion-->
-          <?php require_once 'introduccion.php';?>
-
-          <!--Formulario-->
-          <form method="post">
-
-            <!--Elasticidad-->
+            <?php require_once 'introduccion.php';?>
+          
+          <!--Elasticidad-->
             <?php require_once 'elasticidad.php';?>
             
-
-            <!--Porosidad-->
+          <!--Porosidad-->
             <?php require_once 'porosidad.php'?>
 
-            <!--Grosor-->
-            <?php require_once 'gosor.php'?>
+          <!--Grosor-->
+            <?php require_once 'grosor.php'?>
 
-            <!--Datos registro-->
-            
+          <!--Datos registro-->
+            <?php require_once 'registrar.php'?>
 
           <!--Pie de Pagina-->
-          <?php require_once 'pie.php' ?>
+            <?php require_once 'pie.php' ?>
 
   

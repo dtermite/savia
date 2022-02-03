@@ -38,9 +38,9 @@ if(isset($_POST['enviar'])){
         $email=trim($_POST['email']);
         $fecha=date("y/m/d");
     
-        // echo "Elasticidad= ". $elasticidad ."<br>";
-        //echo "Porosidad= ". $porosidad ."<br>";
-        //echo "Grosor= ". $grosor ."<br>";
+        echo "Elasticidad= ". $elasticidad ."<br>";
+        echo "Porosidad= ". $porosidad ."<br>";
+        echo "Grosor= ". $grosor ."<br>";
         
         $consulta="INSERT INTO registros(nombre, email, elasticidad, grosor, porosidad, fecha) VALUES ('$nombre','$email','$elasticidad','$porosidad','$grosor', '$fecha')";
         $resultado=mysqli_query($conex,$consulta);
